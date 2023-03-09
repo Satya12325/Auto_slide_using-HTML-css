@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+.mainNAv{
+    height: 30px;
+    width:100vw;
+    display: flex;
+    background: #C6053C;
+    justify-content: space-between;
+    color: aliceblue;
+    position: fixed;
+}
+.mainNAv > div{
+    padding: 5px;
+    margin: 0 20px;
+}
+.right{
+    display: flex;
+    gap: 2rem;
+}
+.secoundnav{
+    background: #E40145;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    top:30px
+}
+.logo > img{
+    height: 70px;
+    width: 250px;
+}
+.serchinput{
+    display: flex;
+}
+.searchinput{
+    height: 40px;
+    width:500px;
+
+}
+.btn{
+    color: white;
+    background: #333333;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons{
+    display: flex;
+    color:#fff
+}
+.iconChild{
+    height: 80px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart{
+    border-left: 0.8px solid #C6053C;
+    border-right:0.8px  solid #C6053C;
+}
+.ggg{
+    height:150vh;
+}
